@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="hw02_reg_style.css">
+<title>政大藝文中心節目報名單</title>
+
+
+<style type="text/css"></style></head>
+
+
+<body>
+<artilce>
+<h1>報名資料填寫</h1>
+	<form>
+
+<p>
+			姓名：
+			<input type="text" name="" ="inpName" maxlength="10" placeholder="輸入姓名" required>
+			<!--<input type="submit" value="確認"/>-->
+</p>
+	
+<p>
+			性別：
+			<input type="radio" name="sex" value="male"/>男
+			<input type="radio" name="sex" value="female"/>女
+</p>
+
+<p>
+			學院：
+			<select>
+				<option value="law">法學院</option>
+				<option value="communication">傳播學院</option>
+				<option value="commerce">商學院</option>
+				<option value="science">理學院</option>
+				<option value="liberalArts">文學院</option>
+				<option value="internationalAffairs">國際事務學院</option>
+				<option value="foreignLanguages">外語學院</option>
+				<option value="education">教育學院</option>
+				<option value="socialSciences">社會科學學院</option>
+			</select>
+</p>
+
+<p>
+			信箱：
+			<input type="email" name="inpEmail" placeholder="輸入信箱" required/>
+			<!--<input type="submit" value="確認"/>-->
+</p>
+
+<p>
+			手機：
+			<input type="tel" id="inpNumber" maxlength="10" placeholder="輸入手機號碼" required/>
+			<!--<input type="submit" value="確認"/>-->
+</p>
+
+<p>
+		出生日期
+			<input type="datetime" name="birthDaytime" placeholder="西元年／月／日"/>
+  			<!--<input type="submit">-->
+</p>
+
+<p> 
+<input type="submit" value="填好請按我" onclick="msg()"/>
+<script>function msg() {
+	alert("報名完成!");
+}
+</script>
+</p>
+</form>
+
+</artilce>
+
+</form>
+</body></html>

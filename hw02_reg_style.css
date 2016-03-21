@@ -1,0 +1,20 @@
+/*whole body pattern*/
+body{
+	max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-weight: none;
+    font-family:Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #EEF5DF;
+	color: #666666;
+
+	display: -webkit-flex;
+ 	display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+
+}
+
